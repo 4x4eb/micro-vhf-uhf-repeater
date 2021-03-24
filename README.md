@@ -16,3 +16,10 @@ there ae 2 ways to power the repeater :
 
 once you use battery, dc-dc converter get's in to duply 5V to the arduino and to DTMF module, but I have noticed that some arduinos can work 3.4V too
 if your arduino can handle 3.4V - don't solder the dc-dc module and short it with wire.
+
+components:
+1) cap component are 1206 SMT = 10uF
+2) resistors component are 1206 SMT = 100-150 ohm.
+3) pot are 10K
+4) schottky diode - RB751V40T1G or like(any diode with low Vf)
+5) dc-dc module -  S7V7F5 
