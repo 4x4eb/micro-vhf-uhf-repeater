@@ -13,10 +13,11 @@ POWER:
 there ae 2 ways to power the repeater :
 
 1) via the TYPE C conector - connect it to power bank (1.5A on TX)
-2) via 1 LIPO CELL (lower output power)
+2) via 1 LIPO/LION CELL 4.2V-3.4V (lower output power)
 
-once you use battery, dc-dc converter get's in to duply 5V to the arduino and to DTMF module, but I have noticed that some arduinos can work 3.4V too
+once you use battery, dc-dc converter get's in to suply 5V to the arduino and to DTMF module, but I have noticed that some arduinos can work 3.4V too
 if your arduino can handle 3.4V - don't solder the dc-dc module and short it with wire.
+if U gonna use one power option always u can short the needed diodes too ( ask me if u need)
 
 components:
 1) cap component are 1206 SMT = 10uF
@@ -33,3 +34,5 @@ about tone:
  30=186.2, 31=192.8, 32=203.5, 33=210.7, 34=218.1, 35=225.7, 36=233.6 , 37=241.8, 38=250.3");
 
 
+Eitan
+eib@017.net.il
