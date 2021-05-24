@@ -1,7 +1,7 @@
 # micro-vhf-uhf-repeater
 
-this is small cross band repeater for drones installtion.( but not just LOL).
-it runs on 5V battery and has support for one lipo cell 3.4V-4.2V too - there is support for 5V power OR 4.2-3.4V batt.
+this design is a small cross band repeater for drones installtion.( but not just LOL).
+it runs on 5V battery from TYPE C connector and has support for one lipo cell 3.4V-4.2V too - there is support for 5V power OR 4.2-3.4V batt.
 
 
 the repeater can work both ways (v2u & u2v) and has 0.8W - 1W of output power
