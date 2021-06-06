@@ -80,6 +80,9 @@ void setup() {
   Serial.println("4X4EB");  // prints hit cnt
   Serial.print("VER = ");  // 
   Serial.println(ver);  // 
+  Serial.println(v_freq,3);  // 
+  Serial.println(u_freq,3);  // 
+
 
   digitalWrite(vhf_pd, HIGH);   // 
   digitalWrite(uhf_pd, HIGH);   //
